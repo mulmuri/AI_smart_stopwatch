@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Smart Stopwatch</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../css/style_watch.css">
+  <link rel="stylesheet" href="../css/style_all.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/33a5e70f2d.js" crossorigin="anonymous"></script>
+  <script src="../javascript/watch.js" charset="UTF-8"></script>
+</head>
+<body>
+  <div id="wrap">
+  <div id="border">
+    <div id="search_bar">
+      <input id="search" type="text" placeholder="command here">
+    </div>
+    <div id="box_setting" class="text-success">
+      <i id="setting" class="fas fa-chart-pie"></i>
+    </div>
+    <div id="logo"></div>
+    <div id="stopwatch">
+      <div class="box_subject">
+        <h5>subject: coding</h5>
+      </div>
+      <div class="box_time">
+        <h1 id="timer" style="color: grey">00:00:00</h1>
+      </div>
+      <div class="box_btn">
+        <div class="btn text-primary">
+          <i id="start" class="fas fa-play" onclick="startTimer(this)"></i>
+        </div>
+        <div class="btn text-warning">
+  			  <i id="stop" class="fas fa-pause" onclick="stopTimer()"></i>
+        </div>
+        <div class="btn text-danger">
+          <i id="reset" class="fas fa-stop" onclick="camera()"></i> <!-- resetTimer() -->
+        </div>
+      </div>
+    </div>
+    <div id="camera">
+      <video id="video">Video stream not available.</video>
+      <canvas id="canvas" style="display: none"></canvas>
+    </div>
+    <div id="status"></div>
+  </div>
+  </div>
+  <img id="alarmPopup" src="../media/Alarm_Clock.gif" alt="None" onmousemove="stopAlarm()" onclick="stopAlarm()">
+  <script>initialize()</script>
+</body>

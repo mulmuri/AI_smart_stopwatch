@@ -1,0 +1,138 @@
+.box_subject, .box_time, .box_btn {
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #F5F5F5;
+  text-align: center;
+}
+.box_subject {
+  height: 40px;
+  width: 240px;
+}
+.box_time {
+  height: 60px;
+  width: 240px;
+}
+.box_btn {
+  height: 80px;
+  width: 240px;
+}
+.btn {
+  margin-top: 3px;
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  opacity: 50%;
+  text-align: center;
+  display: inline-block;
+}
+.btn:hover {
+  background-color: #D3D3D3;
+  cursor: pointer;
+}
+.btn .fas {
+  font-size: 40px;
+  width: 50px;
+  height: 50px;
+  margin-left: 0px;
+  margin-top: -5px;
+  border-radius: 5px;
+  background-color: inherit;
+  text-align: center;
+  padding-top: 12px;
+}
+
+
+#border {
+  position: relative;
+}
+#search_bar, #box_setting, #logo, #stopwatch, #video, #status {
+  border-radius: 10px;
+  position: absolute;
+  text-align: center;
+  box-shadow: 1px 1px 5px gray;
+}
+
+#search_bar {
+  margin: 0 auto;
+  margin-top: 100px;
+  left: 20px;
+  top: 20px;
+  background-color: white;
+}
+
+#logo {
+  width: 250px;
+  height: 120px;
+  left: 20px;
+  bottom: 20px;
+}
+#stopwatch {
+  height: 200px;
+  width: 250px;
+  left: 20px;
+  top: 90px;
+  background-color: white;
+  padding: 0;
+}
+#video {
+  width: 320px;
+  height: 240px;
+  right: 20px;
+  top: 90px;
+  transform: rotateY(180deg);
+}
+#status {
+  width: 320px;
+  height: 80px;
+  right: 20px;
+  bottom: 20px;
+}
+#box_setting {
+  width: 50px;
+  height: 50px;
+  right: 20px;
+  top: 20px;
+  text-align: center;
+  display: inline-block;
+}
+#setting {
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  margin-left: 0px;
+  margin-top: 10px;
+  background-color: transparent;
+}
+
+#alarmPopup {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+#status {
+  font-size: 40px;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*

@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+
+#title {
+  margin: 30px;
+}
+
+#icon {
+  width: 400px;
+  margin-top: 30px;
+  font-family: sans-serif;
+  display: block;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+
+.col-md-4 {
+  width: 120px !important;
+  padding: none !important;
+}
+
+.site {
+  width: 120px;
+  height: 120px;
+  border-radius: 5px;
+}
+.site:hover {
+  background-color: #D3D3D3;
+  cursor: pointer;
+}
+
+.site p {
+  margin-top: 10px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.site .fas {
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  margin-left: 35px;
+  margin-top: 20px;
+  border-radius: 50%;
+  background-color: #F5F5F5;
+  text-align: center;
+  padding-top: 12px;
+}
+
+/*.fa-chart-line {color: ;}
+.fa-check {color: ;}
+.fa-bell {color: ;}
